@@ -15,6 +15,8 @@ local ensure_installed = {
 	"markdown",
 	"markdown_inline",
 	"json",
+	"yaml",
+	"toml",
 }
 
 local parser_path = vim.fn.stdpath("config") .. "/treesitter-parsers"
