@@ -25,3 +25,7 @@ create_split_movement_map("l")
 -- Jumplist utilities
 vim.api.nvim_set_keymap("n", "<leader>o", "<C-o>", { noremap = true })
 vim.api.nvim_set_keymap("n", "<leader>i", "<C-i>", { noremap = true })
+
+-- Screen centering
+vim.keymap.set("n", "<C-d>", "<C-d>zz", { noremap = true })
+vim.keymap.set("n", "<C-u>", "<C-u>zz", { noremap = true })
