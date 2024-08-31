@@ -29,3 +29,13 @@ vim.api.nvim_set_keymap("n", "<leader>i", "<C-i>", { noremap = true })
 -- Screen centering
 vim.keymap.set("n", "<C-d>", "<C-d>zz", { noremap = true })
 vim.keymap.set("n", "<C-u>", "<C-u>zz", { noremap = true })
+
+local plugin_mappings = {
+	telescope = {
+		find_files = "<leader>ff",
+		live_grep = "<leader>fg",
+		diagnostics = "<leader>fd",
+	}
+}
+
+return plugin_mappings

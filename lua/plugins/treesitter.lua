@@ -17,6 +17,7 @@ local ensure_installed = {
 	"json",
 	"yaml",
 	"toml",
+	"regex",
 }
 
 local parser_path = vim.fn.stdpath("config") .. "/treesitter-parsers"

@@ -1,5 +1,6 @@
 *.log
 language-servers/*
+!language-servers/setup-list
 treesitter-parsers/*
 lazy/*
 lazy-lock.json
