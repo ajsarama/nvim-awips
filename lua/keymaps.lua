@@ -35,7 +35,22 @@ local plugin_mappings = {
 		find_files = "<leader>ff",
 		live_grep = "<leader>fg",
 		diagnostics = "<leader>fd",
-	}
+	},
+	ts_textobj = {
+		function_outer = "af",
+		function_inner = "if",
+		comment_outer = "ac",
+		comment_inner = "ic",
+		swap_next_param = "<leader>sa",
+		swap_prev_param = "<leader>Sa",
+		swap_next_func = "<leader>sf",
+		swap_prev_func = "<leader>Sf",
+		next_func = "]f",
+		next_func_end = "]F",
+		prev_func = "[f",
+		prev_func_end = "[F",
+
+},
 }
 
 return plugin_mappings
